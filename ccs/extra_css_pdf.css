@@ -1,0 +1,32 @@
+@media print {
+    .admonition .admonition-title::before {
+        display: inline-block !important;
+        margin-left: -20px !important;
+        margin-right: 10px !important;  /* Desplaza el ícono a la derecha */
+        margin-top: 4px !important;    /* Desplaza el ícono hacia abajo */
+    }
+
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  /* Espai entre els logos */
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #f8f8f8;  /* Color de fons opcional per al peu de pàgina */
+  }
+  
+  .footer-logo {
+    width: 100px;  /* Amplada dels logos */
+    height: auto;
+  }
+  
+  footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f8f8f8;  /* Color de fons opcional */
+    border-top: 1px solid #e0e0e0;
+  }
+  
